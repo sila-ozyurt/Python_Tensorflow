@@ -1,0 +1,16 @@
+artificial neural network(ann)
+perceptron->yapay nöron
+bias=>bias sabitiyle elde edilen sonucun 0 vb çıkmasını engelliyoruz
+girdi katmanı     gizli katmanlar     çıktı katmanı 
+eger gizli katmanalr 2 veya daha fazla olursa buna deep network deniyor
+Y =Final output
+x=features
+veri=train set(ögrenme verisi), test set
+verileri bölme işini sklearn kütühphanesi ile yapıcaz
+verileri eğitme işini tensorflow ile yapıcaz
+cost function=gercek veriden ne kadar uzaktayız onu ölçer, biz bunu minimize etmeye calisiyoruz
+minimize ederken gradient descent kullanıyoruz.(o curveden mevcut cost fonk u aşağı doğru hangi aralıklarla götürdüğün step size)
+optimizasyon algoritması=adam, RMSprop
+e poch fazla olursa overfitting olur elindeki veri setinden ezber yapar bu sefer
+
+
